@@ -1,0 +1,5 @@
+console.log ("hello world")
+console.log ("hola mundo")
+console.log ("こんにちは世界")
+console.log ("Привет, мир")
+console.log ("Γειά σου Κόσμε")
