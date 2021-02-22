@@ -1,5 +1,17 @@
-var mentor1 = "Daniel";
-var mentor2 = "Irina";
-var mentor3 = "Mimi";
-var mentor4 = "Rob";
-var mentor5 = "Yohannes";
+function nombre (names){
+    const Lista = "Hello " + names.toUpperCase();
+    return Lista;
+}
+
+let mentor1 = nombre ("Daniel");
+let mentor2 = nombre  ("Irina");
+let mentor3 = nombre ("Mimi");
+let mentor4 = nombre ( "Rob");
+let mentor5 = nombre ("Yohannes");
+
+console.log (mentor1)
+console.log (mentor2)
+console.log (mentor3)
+console.log (mentor4)
+console.log (mentor5)
+
