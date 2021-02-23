@@ -5,7 +5,17 @@
   Sales tax is 20% of the price of the product
 */
 
-function calculateSalesTax() {}
+function calculateSalesTax(total_monto) {
+  let calculo= total_monto * 20 / 100
+  return calculo 
+}
+
+let tax = calculateSalesTax (15);
+let tax_1= calculateSalesTax (17.5)
+let tax_2= calculateSalesTax (34)
+console.log (tax)
+console.log (tax_1)
+console.log (tax_2)
 
 /*
   CURRENCY FORMATTING
@@ -17,7 +27,15 @@ function calculateSalesTax() {}
   Remember that the prices must include the sales tax (hint: you already wrote a function for this!)
 */
 
-function addTaxAndFormatCurrency() {}
+function addTaxAndFormatCurrency(x) {
+  let con_simbolo = calculateSalesTax(x)
+     return "£ " + con_simbolo.toFixed(2)
+
+}
+console.log(addTaxAndFormatCurrency(1000));
+
+
+  
 
 /* ======= TESTS - DO NOT MODIFY =====
 There are some Tests in this file that will help you work out if your code is working.

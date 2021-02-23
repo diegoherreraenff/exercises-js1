@@ -3,10 +3,13 @@ function getNumber() {
   return Math.random() * 10;
 }
 
+//nos asigna numero aleatorio dentro los rangos establecidos.
+
 // Add comments to explain what this function does. You're meant to use Google!
 function s(w1, w2) {
   return w1.concat(w2);
 }
+// .contact sirve para unir dos o mas array o variables
 
 function concatenate(firstWord, secondWord, thirdWord) {
   // Write the body of this function to concatenate three words together.
@@ -30,6 +33,8 @@ function test(test_name, actual, expected) {
 
     console.log(`${test_name}: ${status}`);
 }
+
+
 
 test(
   "concatenate function - case 1 works",

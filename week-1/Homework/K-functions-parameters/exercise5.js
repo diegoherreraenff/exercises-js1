@@ -8,3 +8,5 @@ function createLongGreeting (name, edad){
 const greeting = createLongGreeting("Daniel", 30);
 
 console.log(greeting);
+
+
