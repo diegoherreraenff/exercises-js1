@@ -41,11 +41,12 @@ console.log (startingValue);
 
 // Why can this code be seen as bad practice? Comment your answer.
 let badCode =  format(multiply(add(6,6),startingValue));
+console.log (badCode)
 
 /* BETTER PRACTICE */
 
 let goodCode = (format(multiply(add(startingValue,10),startingValue)));
-
+console.log (goodCode)
 /* ======= TESTS - DO NOT MODIFY ===== 
 There are some Tests in this file that will help you work out if your code is working.
 
