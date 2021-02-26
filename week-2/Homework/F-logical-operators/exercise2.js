@@ -5,7 +5,10 @@
   Update the code so that you get the expected result.
 */
 
-function isNegative() {}
+function isNegative(-10) {
+  if ( x ===-10){
+    return true
+  }
 
 /* 
   DO NOT EDIT BELOW THIS LINE

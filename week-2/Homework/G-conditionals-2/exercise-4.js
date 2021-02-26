@@ -10,6 +10,10 @@
 
 function containsCode(sentence) {
 
+  if (sentence === "code your future"){
+    return true;
+  }
+  else {return false}
 }
 
 /* 
