@@ -37,3 +37,31 @@ false
 > !(num === 10)
 false
 ```
+
+
+function exsercise_a(htmlLevel,cssLevel) {
+  if (htmlLevel > 5 &&  cssLevel > 2) {
+    return true;
+  }
+    return true
+   };
+
+  console.log (exsercise_a (htmlLevel,cssLevel))
+
+  function exsercise (x) {
+  if (x === -10) {
+    return "Is -10 is a negative number?" + true
+}
+else if (x === 5){
+  return "Is 5 a negative number?" +  false
+}
+
+else if (x === 5,6,7,8,9,10){
+return "Is x in the range 5-10?" + true}
+
+else if (x === "daniel") {
+  return  "Is Daniel a short name?" +  true
+}
+else (x === "D") 
+  return "Does Daniel start with 'D'?" + true
+}

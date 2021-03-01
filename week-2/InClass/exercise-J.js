@@ -1,13 +1,15 @@
 function secondMatchesAmy(array) {
-  if ( "amy") {
+  if (array [1] === "Amy") {
     return "Second index matched!";
-  } else if (typeof array !== "number"){
-  return "Second index not matched"};
+  } else 
+  return "Second index not matched";
 } 
-console.log (secondMatchesAmy("carlos"))
+
 
   let names = ["Alex", "Amara", "Carlos"];
   let names2 = ["Ali", "Amy", "Naresh"];
   
-  const result = secondMatchesAmy("naresh");
+  const result = secondMatchesAmy(names2);
+  const result_1= secondMatchesAmy(names)
   console.log(result)
+  console.log (result_1)

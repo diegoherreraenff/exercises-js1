@@ -6,7 +6,14 @@
 
 */
 
-let n = 10;
+
+let n = 0+1;
+while (n <= 10 ){
+  console.log ("the result n+1 =" + n)
+  n +=1;
+  
+}
+
 
 function sumTillNum(num){
 	//your code here

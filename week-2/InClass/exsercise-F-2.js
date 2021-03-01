@@ -1,5 +1,5 @@
 function user (x,y) {
-    if (x [0] ==="a" || x [0] ==="e" || x [0] ==="i" ||x [0] ==="o" || x [0] ==="u" && x.length >= 5 && x.length <=10 ){
+    if (x[0] ==="A" || x[0] ==="e" || x[0] ==="i" ||x[0] ==="o" || x[0] ==="u" && x[0].toUpperCase){
         return "user valid"
     }
     else if ( y === "admin" || y === "manager" || y === "sudo" ) {
@@ -7,5 +7,5 @@ function user (x,y) {
     }
     else return "user invalid"  
 }
-console.log (user ("yntonio","invita"))
-console.log (user("ae"))
+console.log (user ("Antonio","invitado"))
+console.log (user("b"))

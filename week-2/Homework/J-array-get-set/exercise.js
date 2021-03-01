@@ -5,12 +5,15 @@
 */
 
 function first(arr) {
-  return; // complete this statement
+  let numbers = [1, 2, 3]
+  return numbers   // complete this statement
 }
 
 function last(arr) {
-  return; // complete this statement
+  let names = ["Irina", "Ashleigh", "Mozafar", "Joe"]; 
+  return names[3]; // complete this statement
 }
+
 
 /* 
   DO NOT EDIT BELOW THIS LINE
@@ -18,9 +21,9 @@ function last(arr) {
 var numbers = [1, 2, 3];
 var names = ["Irina", "Ashleigh", "Mozafar", "Joe"];
 
-console.log(first(numbers));
-console.log(last(numbers));
-console.log(last(names));
+console.log(first.indexof(0));
+console.log(last.indexof(2));
+console.log(last.indexof("joe"));
 
 /* 
   EXPECTED RESULT

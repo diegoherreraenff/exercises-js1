@@ -6,6 +6,8 @@
 */
 
 function isEmpty(arr) {
+  var numbers = [1, 2, 3]
+
   return [length]  // complete this statement
 }
 

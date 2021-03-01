@@ -6,8 +6,8 @@
 */
 
 var studentCount = 16;
-var mentorCount = 9;
-var moreStudentsThanMentors= studentCount>mentorCount  // finish this statement
+var mentorCount = 90;
+var moreStudentsThanMentors= studentCount > mentorCount  // finish this statement
 console.log (moreStudentsThanMentors )
 
 var roomMaxCapacity = 25;
