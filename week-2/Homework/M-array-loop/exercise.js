@@ -14,7 +14,13 @@ const daysOfWeek = [
   "Sunday",
 ];
 
-for (let i = 0; i < daysOfWeek.length; i++){
-  const days = "today is" + daysOfWeek[i];
-  console.log (days)
+function days(x){
+  let y = [];
+  for(let i=0 ; i<=6; i++){
+    if(x[i].startsWith("T", 0)){
+      y.push(x[i]);
+    }
+  }
+  return y;
 }
+console.log(days(daysOfWeek));
