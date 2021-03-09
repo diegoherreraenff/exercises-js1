@@ -9,6 +9,30 @@
 
 var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
 
+function multiplos(number) {
+  function modulo(element) {
+    if (element % 3 === 0 && element % 5 === 0 ) {
+      return console.log ("fizzBUzzz")
+    }
+    else if(element % 3 === 0){
+    return console.log("fizz")
+    } else if (element % 5 === 0){
+      return console.log ("buzz")
+    }  else {
+      return console.log (element)
+    }
+     
+  }
+   number.forEach(modulo)
+  
+}
+
+multiplos(arr)
+  
+ 
+
+
+
 /* EXPECTED OUTPUT */
 
 /*
