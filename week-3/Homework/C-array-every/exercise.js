@@ -3,24 +3,22 @@
 */
 
 var students = ["Omar", "Austine", "Dany", "Swathi", "Lesley", "Rukmini"];
-var group = ["Austine", "Dany", "Swathi", "Daniel"];
+var group = ["Austine", "Dany", "Swathi", "Daniel",];
 
-var groupIsOnlyStudents = function lista(element) {
-  return group.every(element)
-}      // complete this statement
+// complete this statement
+
+let groupIsOnlyStudents = group.every(name => students.includes(name));
 
 
 
-function buscar(names) {
-  if (names= groupIsOnlyStudents) {
-    console.log("The group does not contain only students");
-  } else {
-    console.log("The group contains only students"  );
-  }
-  
+if (groupIsOnlyStudents) {
+  console.log("The group contains only students");
+
+} else {
+
+  console.log("The group does not contain only students");
 }
 
-console.log(buscar())
 
 /* EXPECTED RESULT */
 
